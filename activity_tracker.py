@@ -646,3 +646,5 @@ class ActivityTracker(tk.Tk):
 if __name__ == "__main__":
     app = ActivityTracker()
     app.mainloop()
+
+#test
