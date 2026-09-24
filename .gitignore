@@ -4,3 +4,5 @@ __pycache__/
 venv/
 .env
 .vscode/
+completed_log.csv
+pending_activities.csv
