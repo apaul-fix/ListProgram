@@ -184,7 +184,6 @@ class PriorityChip(RoundedButton):
 
 
 class ActivityTracker(tk.Tk):
-    # ---- Elite Dangerous-esque palette ----
     BG = "#0a0a0a"          # near-black background
     BG_PANEL = "#141414"    # card / entry background
     FG = "#2596be"          # HUD orange
