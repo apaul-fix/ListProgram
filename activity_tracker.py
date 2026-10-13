@@ -51,7 +51,6 @@ if platform.system() == "Windows":
     except Exception:
         pass  # not on Windows, or the call isn't available -- safe to ignore
 
-# Put the log file next to the exe (or script) rather than a temp folder
 if getattr(sys, "frozen", False):
     APP_DIR = os.path.dirname(sys.executable)
 else:
